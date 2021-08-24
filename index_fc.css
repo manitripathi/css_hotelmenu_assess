@@ -1,0 +1,126 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.box{
+    color: white;
+    background-color: black;
+    border: red solid 4px;
+    border-radius: 20px;
+    text-align: center;
+}
+.box1{
+    width: 200px;
+    height: 70px;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    margin-left:12px;
+}
+.box2{
+    width: 300px;
+    height: 20px;
+    padding-top: 20px;
+    z-index: 1;
+    margin-top: 10px;
+    margin-left: 160px;
+}
+.box3{
+    width: 200px;
+    height: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left:590px;
+}
+.parent1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left:30px;
+
+}
+.child1{
+    float:left;
+    border:gray solid 5px;
+    border-radius: 50%;
+    width: 350px;
+    height: 250px;
+    align-content: space-between;
+    background-color:greenyellow;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10%;
+}
+.child2{
+    color: red;
+    border-width: 4px;
+    border-radius: 3px;
+    border-style: dashed;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20%;
+}
+.menu{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border:red solid 5px;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-left:40%;
+    margin-right:48%;
+    text-align: center;
+    font-style:oblique;
+}
+
+.parent3{
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-column-gap: 2px;
+    grid-row-gap: 60px;
+    justify-content: space-evenly;
+    color:purple;
+    text-align:justify;
+    padding-bottom: 80px;
+}
+.starters{
+    border: green solid 4px;
+    border-radius: 20px;
+    background-color:yellow;
+}
+.south{
+    border: green solid 4px;
+    border-radius: 20px;
+    background-color:yellow;
+}
+.indian{
+    border: green solid 4px;
+    border-radius: 20px;
+    background-color:yellow;
+}
+.rice{
+    border: green solid 4px;
+    border-radius: 20px;
+    background-color:yellow;
+}
+.tandoori{
+    border: green solid 4px;
+    border-radius: 20px;
+    background-color:yellow;
+}
+.other{
+    border: green solid 4px;
+    border-radius: 20px;
+    background-color:yellow;
+}
